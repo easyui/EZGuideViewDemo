@@ -183,6 +183,9 @@
 }
 
 - (void)showAtPointArr:(NSArray *)pointArr inView:(UIView *)view withTextArr:(NSArray *)textArr orientations:(NSArray *)orientations{
+    if (pointArr.count != textArr.count) {
+        return;
+    }
     if(!orientations){
        int length = pointArr.count;
        self.orientations = [[NSMutableArray alloc] initWithCapacity:length];
