@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B43851C1844657200DB368A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B43851B1844657200DB368A /* UIKit.framework */; };
+		9B43851E1844657200DB368A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B43851D1844657200DB368A /* Foundation.framework */; };
+		9B4385201844657200DB368A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B43851F1844657200DB368A /* CoreGraphics.framework */; };
+		9B4385261844657200DB368A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4385241844657200DB368A /* InfoPlist.strings */; };
+		9B4385281844657200DB368A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4385271844657200DB368A /* main.m */; };
+		9B43852C1844657200DB368A /* EZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43852B1844657200DB368A /* EZAppDelegate.m */; };
+		9B43852E1844657200DB368A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B43852D1844657200DB368A /* Default.png */; };
+		9B4385301844657200DB368A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B43852F1844657200DB368A /* Default@2x.png */; };
+		9B4385321844657200DB368A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4385311844657200DB368A /* Default-568h@2x.png */; };
+		9B4385351844657200DB368A /* EZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4385341844657200DB368A /* EZViewController.m */; };
+		9B4385381844657200DB368A /* EZViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4385361844657200DB368A /* EZViewController_iPhone.xib */; };
+		9B43853B1844657200DB368A /* EZViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4385391844657200DB368A /* EZViewController_iPad.xib */; };
+		9B43854418446B0C00DB368A /* EZGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43854318446B0C00DB368A /* EZGuideView.m */; };
+		9B43854818446C4600DB368A /* EZGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43854618446C4600DB368A /* EZGameViewController.m */; };
+		9B43854918446C4600DB368A /* EZGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B43854718446C4600DB368A /* EZGameViewController.xib */; };
+		9B578E471845A25200223EE5 /* EZOrientationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B578E451845A25200223EE5 /* EZOrientationsViewController.m */; };
+		9B578E481845A25200223EE5 /* EZOrientationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B578E461845A25200223EE5 /* EZOrientationsViewController.xib */; };
+		9B578E4C1845A6BA00223EE5 /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B578E4A1845A6BA00223EE5 /* EZBaseViewController.m */; };
+		9B578E4D1845A6BA00223EE5 /* EZBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B578E4B1845A6BA00223EE5 /* EZBaseViewController.xib */; };
+		9B578E511845B8FD00223EE5 /* EZUvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B578E4F1845B8FD00223EE5 /* EZUvViewController.m */; };
+		9B578E521845B8FD00223EE5 /* EZUvViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B578E501845B8FD00223EE5 /* EZUvViewController.xib */; };
+		9B578E561845BE5100223EE5 /* EZImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B578E541845BE5100223EE5 /* EZImageViewController.m */; };
+		9B578E571845BE5100223EE5 /* EZImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B578E551845BE5100223EE5 /* EZImageViewController.xib */; };
+		9B578E5A1845BF0B00223EE5 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B578E581845BF0B00223EE5 /* bg.png */; };
+		9B578E5B1845BF0B00223EE5 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B578E591845BF0B00223EE5 /* bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B4385181844657200DB368A /* EZGuideViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZGuideViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B43851B1844657200DB368A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B43851D1844657200DB368A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B43851F1844657200DB368A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B4385231844657200DB368A /* EZGuideViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZGuideViewDemo-Info.plist"; sourceTree = "<group>"; };
+		9B4385251844657200DB368A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B4385271844657200DB368A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B4385291844657200DB368A /* EZGuideViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZGuideViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9B43852A1844657200DB368A /* EZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAppDelegate.h; sourceTree = "<group>"; };
+		9B43852B1844657200DB368A /* EZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZAppDelegate.m; sourceTree = "<group>"; };
+		9B43852D1844657200DB368A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B43852F1844657200DB368A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B4385311844657200DB368A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9B4385331844657200DB368A /* EZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZViewController.h; sourceTree = "<group>"; };
+		9B4385341844657200DB368A /* EZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZViewController.m; sourceTree = "<group>"; };
+		9B4385371844657200DB368A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EZViewController_iPhone.xib; sourceTree = "<group>"; };
+		9B43853A1844657200DB368A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EZViewController_iPad.xib; sourceTree = "<group>"; };
+		9B43854218446B0C00DB368A /* EZGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZGuideView.h; sourceTree = "<group>"; };
+		9B43854318446B0C00DB368A /* EZGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZGuideView.m; sourceTree = "<group>"; };
+		9B43854518446C4600DB368A /* EZGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZGameViewController.h; sourceTree = "<group>"; };
+		9B43854618446C4600DB368A /* EZGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZGameViewController.m; sourceTree = "<group>"; };
+		9B43854718446C4600DB368A /* EZGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZGameViewController.xib; sourceTree = "<group>"; };
+		9B578E441845A25200223EE5 /* EZOrientationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOrientationsViewController.h; sourceTree = "<group>"; };
+		9B578E451845A25200223EE5 /* EZOrientationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOrientationsViewController.m; sourceTree = "<group>"; };
+		9B578E461845A25200223EE5 /* EZOrientationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZOrientationsViewController.xib; sourceTree = "<group>"; };
+		9B578E491845A6BA00223EE5 /* EZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseViewController.h; sourceTree = "<group>"; };
+		9B578E4A1845A6BA00223EE5 /* EZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBaseViewController.m; sourceTree = "<group>"; };
+		9B578E4B1845A6BA00223EE5 /* EZBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZBaseViewController.xib; sourceTree = "<group>"; };
+		9B578E4E1845B8FD00223EE5 /* EZUvViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZUvViewController.h; sourceTree = "<group>"; };
+		9B578E4F1845B8FD00223EE5 /* EZUvViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZUvViewController.m; sourceTree = "<group>"; };
+		9B578E501845B8FD00223EE5 /* EZUvViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZUvViewController.xib; sourceTree = "<group>"; };
+		9B578E531845BE5100223EE5 /* EZImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZImageViewController.h; sourceTree = "<group>"; };
+		9B578E541845BE5100223EE5 /* EZImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZImageViewController.m; sourceTree = "<group>"; };
+		9B578E551845BE5100223EE5 /* EZImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZImageViewController.xib; sourceTree = "<group>"; };
+		9B578E581845BF0B00223EE5 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		9B578E591845BF0B00223EE5 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B4385151844657200DB368A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B43851C1844657200DB368A /* UIKit.framework in Frameworks */,
+				9B43851E1844657200DB368A /* Foundation.framework in Frameworks */,
+				9B4385201844657200DB368A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B43850F1844657200DB368A = {
+			isa = PBXGroup;
+			children = (
+				9B43854118446ADB00DB368A /* EZGuideView */,
+				9B4385211844657200DB368A /* EZGuideViewDemo */,
+				9B43851A1844657200DB368A /* Frameworks */,
+				9B4385191844657200DB368A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B4385191844657200DB368A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B4385181844657200DB368A /* EZGuideViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B43851A1844657200DB368A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B43851B1844657200DB368A /* UIKit.framework */,
+				9B43851D1844657200DB368A /* Foundation.framework */,
+				9B43851F1844657200DB368A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B4385211844657200DB368A /* EZGuideViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B43852A1844657200DB368A /* EZAppDelegate.h */,
+				9B43852B1844657200DB368A /* EZAppDelegate.m */,
+				9B4385331844657200DB368A /* EZViewController.h */,
+				9B4385341844657200DB368A /* EZViewController.m */,
+				9B4385361844657200DB368A /* EZViewController_iPhone.xib */,
+				9B4385391844657200DB368A /* EZViewController_iPad.xib */,
+				9B578E491845A6BA00223EE5 /* EZBaseViewController.h */,
+				9B578E4A1845A6BA00223EE5 /* EZBaseViewController.m */,
+				9B578E4B1845A6BA00223EE5 /* EZBaseViewController.xib */,
+				9B43854518446C4600DB368A /* EZGameViewController.h */,
+				9B43854618446C4600DB368A /* EZGameViewController.m */,
+				9B43854718446C4600DB368A /* EZGameViewController.xib */,
+				9B578E441845A25200223EE5 /* EZOrientationsViewController.h */,
+				9B578E451845A25200223EE5 /* EZOrientationsViewController.m */,
+				9B578E461845A25200223EE5 /* EZOrientationsViewController.xib */,
+				9B578E4E1845B8FD00223EE5 /* EZUvViewController.h */,
+				9B578E4F1845B8FD00223EE5 /* EZUvViewController.m */,
+				9B578E501845B8FD00223EE5 /* EZUvViewController.xib */,
+				9B578E531845BE5100223EE5 /* EZImageViewController.h */,
+				9B578E541845BE5100223EE5 /* EZImageViewController.m */,
+				9B578E551845BE5100223EE5 /* EZImageViewController.xib */,
+				9B4385221844657200DB368A /* Supporting Files */,
+			);
+			path = EZGuideViewDemo;
+			sourceTree = "<group>";
+		};
+		9B4385221844657200DB368A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B578E581845BF0B00223EE5 /* bg.png */,
+				9B578E591845BF0B00223EE5 /* bg@2x.png */,
+				9B4385231844657200DB368A /* EZGuideViewDemo-Info.plist */,
+				9B4385241844657200DB368A /* InfoPlist.strings */,
+				9B4385271844657200DB368A /* main.m */,
+				9B4385291844657200DB368A /* EZGuideViewDemo-Prefix.pch */,
+				9B43852D1844657200DB368A /* Default.png */,
+				9B43852F1844657200DB368A /* Default@2x.png */,
+				9B4385311844657200DB368A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B43854118446ADB00DB368A /* EZGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				9B43854218446B0C00DB368A /* EZGuideView.h */,
+				9B43854318446B0C00DB368A /* EZGuideView.m */,
+			);
+			path = EZGuideView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B4385171844657200DB368A /* EZGuideViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B43853E1844657200DB368A /* Build configuration list for PBXNativeTarget "EZGuideViewDemo" */;
+			buildPhases = (
+				9B4385141844657200DB368A /* Sources */,
+				9B4385151844657200DB368A /* Frameworks */,
+				9B4385161844657200DB368A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZGuideViewDemo;
+			productName = EZGuideViewDemo;
+			productReference = 9B4385181844657200DB368A /* EZGuideViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B4385101844657200DB368A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = cactus;
+			};
+			buildConfigurationList = 9B4385131844657200DB368A /* Build configuration list for PBXProject "EZGuideViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B43850F1844657200DB368A;
+			productRefGroup = 9B4385191844657200DB368A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B4385171844657200DB368A /* EZGuideViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B4385161844657200DB368A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4385261844657200DB368A /* InfoPlist.strings in Resources */,
+				9B43852E1844657200DB368A /* Default.png in Resources */,
+				9B4385301844657200DB368A /* Default@2x.png in Resources */,
+				9B4385321844657200DB368A /* Default-568h@2x.png in Resources */,
+				9B4385381844657200DB368A /* EZViewController_iPhone.xib in Resources */,
+				9B43853B1844657200DB368A /* EZViewController_iPad.xib in Resources */,
+				9B43854918446C4600DB368A /* EZGameViewController.xib in Resources */,
+				9B578E481845A25200223EE5 /* EZOrientationsViewController.xib in Resources */,
+				9B578E4D1845A6BA00223EE5 /* EZBaseViewController.xib in Resources */,
+				9B578E521845B8FD00223EE5 /* EZUvViewController.xib in Resources */,
+				9B578E571845BE5100223EE5 /* EZImageViewController.xib in Resources */,
+				9B578E5A1845BF0B00223EE5 /* bg.png in Resources */,
+				9B578E5B1845BF0B00223EE5 /* bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B4385141844657200DB368A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4385281844657200DB368A /* main.m in Sources */,
+				9B43852C1844657200DB368A /* EZAppDelegate.m in Sources */,
+				9B4385351844657200DB368A /* EZViewController.m in Sources */,
+				9B43854418446B0C00DB368A /* EZGuideView.m in Sources */,
+				9B43854818446C4600DB368A /* EZGameViewController.m in Sources */,
+				9B578E471845A25200223EE5 /* EZOrientationsViewController.m in Sources */,
+				9B578E4C1845A6BA00223EE5 /* EZBaseViewController.m in Sources */,
+				9B578E511845B8FD00223EE5 /* EZUvViewController.m in Sources */,
+				9B578E561845BE5100223EE5 /* EZImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B4385241844657200DB368A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4385251844657200DB368A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B4385361844657200DB368A /* EZViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4385371844657200DB368A /* en */,
+			);
+			name = EZViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9B4385391844657200DB368A /* EZViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B43853A1844657200DB368A /* en */,
+			);
+			name = EZViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B43853C1844657200DB368A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B43853D1844657200DB368A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B43853F1844657200DB368A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZGuideViewDemo/EZGuideViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "EZGuideViewDemo/EZGuideViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B4385401844657200DB368A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZGuideViewDemo/EZGuideViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "EZGuideViewDemo/EZGuideViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B4385131844657200DB368A /* Build configuration list for PBXProject "EZGuideViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B43853C1844657200DB368A /* Debug */,
+				9B43853D1844657200DB368A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B43853E1844657200DB368A /* Build configuration list for PBXNativeTarget "EZGuideViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B43853F1844657200DB368A /* Debug */,
+				9B4385401844657200DB368A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B4385101844657200DB368A /* Project object */;
+}
