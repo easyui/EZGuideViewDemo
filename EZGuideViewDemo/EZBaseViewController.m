@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+//    EZGuideView *pv = [[EZGuideView alloc] initWithFrame:CGRectZero];
+//    
+//    [pv showAtPoint:CGPointMake(self.adButton.center.x, self.adButton.center.y - self.adButton.bounds.size.height / 2) inView:self.view withText:@"这个是btn的广告"];
+//    NSLog(@"___%@",NSStringFromCGRect(self.view.frame));
 }
 
 - (void)viewDidAppear:(BOOL)animated

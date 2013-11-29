@@ -216,7 +216,7 @@
     
     self.topView = [[[[UIApplication sharedApplication] keyWindow] subviews] lastObject];
     [self configPointArr:pointArr inView:view];
-    
+
     
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
@@ -299,8 +299,10 @@
 
 - (void)setupLayout:(CGPoint)point ContentView:(UIView *)contentView orientation:(EZGuideViewOrientation)orientation
 {
+    NSLog(@"____%@",NSStringFromCGRect(self.topView.frame));
+    NSLog(@"____%@",NSStringFromCGRect(self.parentView.frame));
     CGPoint topPoint = [self.topView convertPoint:point fromView:self.parentView];
-    //    CGPoint topPoint = point;
+//        CGPoint topPoint = point;
     CGPoint arrowPoint = topPoint;
     //    NSLog(@"arrowPoint:%f,%f", arrowPoint.x, arrowPoint.y);
     
@@ -367,6 +369,8 @@
     
     [self addSubview:contentView];
     //    [topView addSubview:self];
+//  self.layer.anchorPoint = CGPointMake(arrowPoint.x / topViewBounds.size.width, arrowPoint.y / topViewBounds.size.height);
+//    self.layer.anchorPoint = CGPointMake(0, 0);
     [self.arrowPoints addObject:[NSValue valueWithCGPoint:arrowPoint]];
     [self.aboves addObject:[NSNumber numberWithBool:above]];
     [self.boxFrames addObject:[NSValue valueWithCGRect:boxFrame]];
@@ -389,9 +393,8 @@
         [self setupLayout:[(NSValue *)pointArr[i] CGPointValue] ContentView:(UIView *)self.contentViews[i] orientation:[(NSNumber *)self.orientations[i] intValue]];
     }
     
-    //       self.layer.anchorPoint = CGPointMake(self.arrowPoint.x / topViewBounds.size.width, arrowPoint.y / topViewBounds.size.height);
-    //       self.frame = self.topView.bounds; // 设置成顶层的frame
-    [self setNeedsDisplay];
+
+    [self setNeedsDisplay];    
     [self.topView addSubview:self];
 }
 @end
