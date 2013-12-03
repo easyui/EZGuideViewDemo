@@ -22,6 +22,8 @@
 		9B43854418446B0C00DB368A /* EZGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43854318446B0C00DB368A /* EZGuideView.m */; };
 		9B43854818446C4600DB368A /* EZGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43854618446C4600DB368A /* EZGameViewController.m */; };
 		9B43854918446C4600DB368A /* EZGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B43854718446C4600DB368A /* EZGameViewController.xib */; };
+		9B53E21A184DCA3900F70E8A /* EZTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B53E218184DCA3900F70E8A /* EZTimerViewController.m */; };
+		9B53E21B184DCA3900F70E8A /* EZTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B53E219184DCA3900F70E8A /* EZTimerViewController.xib */; };
 		9B578E471845A25200223EE5 /* EZOrientationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B578E451845A25200223EE5 /* EZOrientationsViewController.m */; };
 		9B578E481845A25200223EE5 /* EZOrientationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B578E461845A25200223EE5 /* EZOrientationsViewController.xib */; };
 		9B578E4C1845A6BA00223EE5 /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B578E4A1845A6BA00223EE5 /* EZBaseViewController.m */; };
@@ -57,6 +59,9 @@
 		9B43854518446C4600DB368A /* EZGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZGameViewController.h; sourceTree = "<group>"; };
 		9B43854618446C4600DB368A /* EZGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZGameViewController.m; sourceTree = "<group>"; };
 		9B43854718446C4600DB368A /* EZGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZGameViewController.xib; sourceTree = "<group>"; };
+		9B53E217184DCA3900F70E8A /* EZTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTimerViewController.h; sourceTree = "<group>"; };
+		9B53E218184DCA3900F70E8A /* EZTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTimerViewController.m; sourceTree = "<group>"; };
+		9B53E219184DCA3900F70E8A /* EZTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZTimerViewController.xib; sourceTree = "<group>"; };
 		9B578E441845A25200223EE5 /* EZOrientationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOrientationsViewController.h; sourceTree = "<group>"; };
 		9B578E451845A25200223EE5 /* EZOrientationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOrientationsViewController.m; sourceTree = "<group>"; };
 		9B578E461845A25200223EE5 /* EZOrientationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZOrientationsViewController.xib; sourceTree = "<group>"; };
@@ -139,6 +144,9 @@
 				9B578E531845BE5100223EE5 /* EZImageViewController.h */,
 				9B578E541845BE5100223EE5 /* EZImageViewController.m */,
 				9B578E551845BE5100223EE5 /* EZImageViewController.xib */,
+				9B53E217184DCA3900F70E8A /* EZTimerViewController.h */,
+				9B53E218184DCA3900F70E8A /* EZTimerViewController.m */,
+				9B53E219184DCA3900F70E8A /* EZTimerViewController.xib */,
 				9B4385221844657200DB368A /* Supporting Files */,
 			);
 			path = EZGuideViewDemo;
@@ -234,6 +242,7 @@
 				9B578E571845BE5100223EE5 /* EZImageViewController.xib in Resources */,
 				9B578E5A1845BF0B00223EE5 /* bg.png in Resources */,
 				9B578E5B1845BF0B00223EE5 /* bg@2x.png in Resources */,
+				9B53E21B184DCA3900F70E8A /* EZTimerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 				9B578E4C1845A6BA00223EE5 /* EZBaseViewController.m in Sources */,
 				9B578E511845B8FD00223EE5 /* EZUvViewController.m in Sources */,
 				9B578E561845BE5100223EE5 /* EZImageViewController.m in Sources */,
+				9B53E21A184DCA3900F70E8A /* EZTimerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

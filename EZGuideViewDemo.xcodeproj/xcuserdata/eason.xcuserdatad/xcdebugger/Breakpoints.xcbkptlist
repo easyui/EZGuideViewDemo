@@ -8,12 +8,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "EZGuideView/EZGuideView.m"
-         timestampString = "407405710.477916"
+         timestampString = "407759884.531848"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "304"
-         endingLineNumber = "304"
-         landmarkName = "-setupLayout:ContentView:orientation:"
+         startingLineNumber = "165"
+         endingLineNumber = "165"
+         landmarkName = "-dealloc"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -57,6 +57,9 @@ typedef enum {
 @property (nonatomic, strong) UIColor   *borderColor;
 @property (nonatomic, assign) CGFloat   borderLineWidth;
 
+//持续时间
+@property (nonatomic, assign) CGFloat   durationTime;
+
 - (void)showAtPoint:(CGPoint)point inView:(UIView *)view withText:(NSString *)textArr;
 - (void)showAtPoint:(CGPoint)point inView:(UIView *)view withText:(NSString *)textArr orientation:(EZGuideViewOrientation)orientation;
 
