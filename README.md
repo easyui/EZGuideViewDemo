@@ -24,7 +24,7 @@ todo：
 
 guideview的多种颜色渐变
 
-强制设定guidieview的高宽
+强制设定guidieview的高宽(fixed)
 
 自定义guideview里的内容
 
