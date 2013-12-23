@@ -6,6 +6,20 @@
 //  Copyright (c) 2013年 cactus. All rights reserved.
 //
 
+#ifndef kCFCoreFoundationVersionNumber_iOS_6_1
+#define kCFCoreFoundationVersionNumber_iOS_6_1 793.00
+#endif
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_6_1
+#define IF_IOS7_OR_GREATER(...) \
+if (kCFCoreFoundationVersionNumber > kCFCoreFoundationVersionNumber_iOS_6_1) \
+{ \
+__VA_ARGS__ \
+}
+#else
+#define IF_IOS7_OR_GREATER(...)
+#endif
+
 #import "EZBaseViewController.h"
 
 @interface EZBaseViewController ()
@@ -26,6 +40,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+      IF_IOS7_OR_GREATER(self.edgesForExtendedLayout = UIRectEdgeNone;);
     // Do any additional setup after loading the view from its nib.
 //    EZGuideView *pv = [[EZGuideView alloc] initWithFrame:CGRectZero];
 //    

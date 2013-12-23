@@ -43,6 +43,8 @@
         self.subTextAlignment = UITextAlignmentCenter;
         // contentView
         self.contentViewBackgroundColor = [UIColor colorWithRed:1.f green:1.f blue:1.f alpha:0.95f];
+        self.contentHeight = 0.f;
+        self.contentWidth = 0.f;
         // popview
         self.shadowColor = [UIColor colorWithWhite:0.0f alpha:0.4f];
         self.shadowOffset = CGSizeMake(0, 1);
@@ -209,7 +211,9 @@
 
     for (NSString *text in textArr) {
         CGSize  textSize = [text sizeWithFont:font constrainedToSize:CGSizeMake(screenSize.width - self.horizontalMargin * 4.f, 1000.f) lineBreakMode:UILineBreakModeWordWrap];
-        UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, textSize.width, textSize.height)];
+        self.contentWidth = self.contentWidth!=0.f?self.contentWidth:textSize.width;
+        self.contentHeight = self.contentHeight!=0.f?self.contentHeight:textSize.height;
+        UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.contentWidth, self.contentHeight)];
         textLabel.backgroundColor = [UIColor clearColor];
         textLabel.userInteractionEnabled = NO;
         [textLabel setNumberOfLines:0]; // This is so the label word wraps instead of cutting off the text

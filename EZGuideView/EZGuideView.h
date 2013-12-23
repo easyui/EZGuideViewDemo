@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 cactus. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 typedef enum {
     EZGuideViewNone = 0,
@@ -34,7 +35,9 @@ typedef enum {
 
 // contentView
 @property (nonatomic, strong) UIColor           *contentViewBackgroundColor;    
-@property (nonatomic, strong) UIImage           *contentViewBackgroundImage;    
+@property (nonatomic, strong) UIImage           *contentViewBackgroundImage;
+@property (nonatomic, assign) CGFloat           contentHeight;
+@property (nonatomic, assign) CGFloat           contentWidth;
 
 // pop view
 @property (nonatomic, strong) NSMutableArray            *orientations;

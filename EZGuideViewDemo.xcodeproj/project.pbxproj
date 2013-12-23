@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2927EF1868019900117394 /* EZUv2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2927ED1868019900117394 /* EZUv2ViewController.m */; };
+		9B2927F01868019900117394 /* EZUv2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2927EE1868019900117394 /* EZUv2ViewController.xib */; };
 		9B43851C1844657200DB368A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B43851B1844657200DB368A /* UIKit.framework */; };
 		9B43851E1844657200DB368A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B43851D1844657200DB368A /* Foundation.framework */; };
 		9B4385201844657200DB368A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B43851F1844657200DB368A /* CoreGraphics.framework */; };
@@ -37,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B2927EC1868019900117394 /* EZUv2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZUv2ViewController.h; sourceTree = "<group>"; };
+		9B2927ED1868019900117394 /* EZUv2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZUv2ViewController.m; sourceTree = "<group>"; };
+		9B2927EE1868019900117394 /* EZUv2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZUv2ViewController.xib; sourceTree = "<group>"; };
 		9B4385181844657200DB368A /* EZGuideViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZGuideViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B43851B1844657200DB368A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B43851D1844657200DB368A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -147,6 +152,9 @@
 				9B53E217184DCA3900F70E8A /* EZTimerViewController.h */,
 				9B53E218184DCA3900F70E8A /* EZTimerViewController.m */,
 				9B53E219184DCA3900F70E8A /* EZTimerViewController.xib */,
+				9B2927EC1868019900117394 /* EZUv2ViewController.h */,
+				9B2927ED1868019900117394 /* EZUv2ViewController.m */,
+				9B2927EE1868019900117394 /* EZUv2ViewController.xib */,
 				9B4385221844657200DB368A /* Supporting Files */,
 			);
 			path = EZGuideViewDemo;
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2927F01868019900117394 /* EZUv2ViewController.xib in Resources */,
 				9B4385261844657200DB368A /* InfoPlist.strings in Resources */,
 				9B43852E1844657200DB368A /* Default.png in Resources */,
 				9B4385301844657200DB368A /* Default@2x.png in Resources */,
@@ -256,6 +265,7 @@
 				9B4385281844657200DB368A /* main.m in Sources */,
 				9B43852C1844657200DB368A /* EZAppDelegate.m in Sources */,
 				9B4385351844657200DB368A /* EZViewController.m in Sources */,
+				9B2927EF1868019900117394 /* EZUv2ViewController.m in Sources */,
 				9B43854418446B0C00DB368A /* EZGuideView.m in Sources */,
 				9B43854818446C4600DB368A /* EZGameViewController.m in Sources */,
 				9B578E471845A25200223EE5 /* EZOrientationsViewController.m in Sources */,

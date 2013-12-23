@@ -8,8 +8,8 @@
 
 #import "EZViewController.h"
 #import "EZGameViewController.h"
-#define NameArr @[@"简单",@"基本(支持旋转，消失后代理)",@"自定义方向",@"自定义边框和背景颜色(uv需求)",@"自定义背景图片",@"自定义时间自动消失"]
-#define VCArr   @[@"EZBaseViewController",@"EZGameViewController",@"EZOrientationsViewController",@"EZUvViewController",@"EZImageViewController",@"EZTimerViewController"]
+#define NameArr @[@"简单",@"基本(支持旋转，消失后代理)",@"自定义方向",@"自定义边框和背景颜色(uv需求)",@"自定义背景图片",@"自定义时间自动消失",@"没有箭头，左右边距为0(uv需求)"]
+#define VCArr   @[@"EZBaseViewController",@"EZGameViewController",@"EZOrientationsViewController",@"EZUvViewController",@"EZImageViewController",@"EZTimerViewController",@"EZUv2ViewController"]
 @interface EZViewController ()
 @property(strong, nonatomic) NSArray    *nameArr;
 @property(strong, nonatomic) NSArray    *vcArr;
