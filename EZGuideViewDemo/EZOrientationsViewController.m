@@ -2,7 +2,7 @@
 //  EZOrientationsViewController.m
 //  EZGuideViewDemo
 //
-//  Created by NeuLion SH on 13-11-27.
+//  Created by EZ on 13-11-27.
 //  Copyright (c) 2013年 cactus. All rights reserved.
 //
 
