@@ -211,19 +211,20 @@
 
     //    NSLog(@"%f",(screenSize.height -4.f* point.y));
     self.contentViews = [[NSMutableArray alloc] initWithCapacity:pointArr.count];
-
+    float contentWidth;
+    float contentHeight;
     for (NSString *text in textArr) {
         CGSize size = CGSizeMake(screenSize.width - self.horizontalMargin * 4.f, 1000.f);
         if(IOS7_OR_LATER){
             CGRect textRect = [text boundingRectWithSize:size options:(NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading) attributes:@{NSFontAttributeName:font} context:nil];
-            self.contentWidth = self.contentWidth!=0.f?self.contentWidth:textRect.size.width;
-            self.contentHeight = self.contentHeight!=0.f?self.contentHeight:textRect.size.height;
+            contentWidth = self.contentWidth!=0.f?self.contentWidth:textRect.size.width;
+            contentHeight = self.contentHeight!=0.f?self.contentHeight:textRect.size.height;
         }else{
             CGSize  textSize = [text sizeWithFont:font constrainedToSize:size lineBreakMode:UILineBreakModeWordWrap];
-            self.contentWidth = self.contentWidth!=0.f?self.contentWidth:textSize.width;
-            self.contentHeight = self.contentHeight!=0.f?self.contentHeight:textSize.height;
+            contentWidth = self.contentWidth!=0.f?self.contentWidth:textSize.width;
+            contentHeight = self.contentHeight!=0.f?self.contentHeight:textSize.height;
         }
-        UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.contentWidth, self.contentHeight)];
+        UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, contentWidth, contentHeight)];
         textLabel.backgroundColor = [UIColor clearColor];
         textLabel.userInteractionEnabled = NO;
         [textLabel setNumberOfLines:0]; // This is so the label word wraps instead of cutting off the text
